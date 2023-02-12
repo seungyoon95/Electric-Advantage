@@ -1,0 +1,9 @@
+.bottomTwo {
+  margin-top: 3vh;
+  display: flex;
+}
+
+.contentWrapper {
+  margin-left: 2vw;
+  margin-right: 5vw;
+}

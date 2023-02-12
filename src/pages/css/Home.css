@@ -1,0 +1,300 @@
+.customer {
+  display: none;
+}
+
+.modal-header {
+  background-color: green;
+}
+
+.content {
+  margin-top: 5%;
+  position: relative;
+  height: 50%;
+  width: 90%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 80%;
+  margin: 0 auto;
+  max-width: 960px;
+  vertical-align: top;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+h1,
+h3,
+h4 {
+  margin-top: 3vh;
+  margin-left: 3vw;
+}
+
+.homeContent {
+  position: relative;
+  height: 50%;
+  width: 95%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.searchContent {
+  position: relative;
+  height: 50%;
+  width: 95%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+.searchResultContent,
+.carDetailsContent {
+  position: relative;
+  height: 50%;
+  width: 95%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  margin: 0 auto;
+  vertical-align: top;
+  margin-top: 3vh;
+}
+
+.TopImage {
+  position: relative;
+  height: 50%;
+  width: 100vw;
+  margin-bottom: 3%;
+}
+
+.registrationText {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 8vh;
+}
+
+.rightColumn {
+  padding-left: 20%;
+  text-align: left;
+}
+
+.leftColumnChildren {
+  margin-top: 2.5vh;
+  text-align: left;
+}
+
+.signUpButtons {
+  margin-right: 3vw;
+  margin-top: 3vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 10vw;
+  text-align: left;
+}
+
+* {
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100%;
+  max-height: 300px;
+}
+
+.logo {
+  width: 12vh;
+}
+
+h2 {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  margin-left: 3vw;
+  color: #207567;
+  font-weight: bold;
+}
+
+.btn-search {
+  margin-top: 5vh;
+  margin-left: 80vw;
+  margin-right: 50vw;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.nav-search {
+  color: white;
+}
+
+td {
+  font-weight: bold;
+}
+
+.searchResultButton {
+  background-color: green;
+  color: white;
+  font-size: 1.2vw;
+  margin-top: 5vh;
+}
+
+.carCard {
+  width: 80vw;
+  max-height: 40vh;
+  margin-bottom: 1vh;
+  border: groove;
+  position: relative;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  vertical-align: top;
+  padding-left: 0;
+}
+
+.carImage {
+  margin-top: 3vh;
+  margin-left: 3vw;
+  max-width: 30vw;
+  height: 20vh;
+}
+
+.carTable {
+  width: 40vw;
+  height: 20vh;
+  margin-top: 3vh;
+}
+
+.detailsButton {
+  max-height: 5vh;
+  width: 10vw;
+}
+
+.carDetailsButton {
+  margin-left: 69vw;
+  margin-top: 12vh;
+  width: 10vw;
+  max-height: 5vh;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #0d6efd;
+  overflow: hidden;
+}
+
+.emailAlertButton {
+  margin-top: -3vh;
+  margin-left: 3vw;
+  color: white;
+  background-color: green;
+}
+
+.results {
+  position: relative;
+  width: 95%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  vertical-align: top;
+  padding-left: 0;
+}
+
+.countryTitle,
+.provinceTitle,
+.regionTitle {
+  margin-left: -2.8vw;
+}
+
+.btn-submit {
+  margin-top: 3vh;
+  margin-left: 50vw;
+  margin-right: 50vw;
+  background-color: green;
+}
+
+.makeTitle {
+  margin-left: -2.8vw;
+}
+
+.statusTitle {
+  margin-left: -2.8vw;
+}
+
+.priceTitle {
+  margin-left: -1.8vw;
+}
+
+.rangeTitle {
+  margin-left: -1.8vw;
+}
+
+.test {
+  font-weight: bold;
+}
+
+.test1 {
+  font-size: 10%;
+  font-weight: bold;
+}
+
+.profileTitle {
+  position: relative;
+}
+
+.leftColumn {
+  margin-bottom: 20vh;
+}
+
+.rightColumnn {
+  margin-left: 7vw;
+}
+
+.btn-success {
+  background-color: #207567;
+}
+
+h10 {
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.email, .firstName, .lastName, .password-confirm,
+.password {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.w-1000 {
+  margin: auto;
+  display: block;
+}
+
+/* .w-200 {
+  width: 50%;
+  color: blue;
+
+} */

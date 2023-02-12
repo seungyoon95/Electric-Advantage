@@ -1,0 +1,20 @@
+.mainHeader {
+  color: black;
+}
+
+.textInputs {
+  width: 40vw;
+  border-radius: 10px;
+  margin-left: 1vw;
+  margin-top: 2vh;
+  height: 3.5vh;
+}
+
+.infoForm {
+  height: 100%;
+}
+
+.updateButton {
+  margin-top: 2vh;
+  margin-left: 20vw;
+}

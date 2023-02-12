@@ -1,0 +1,58 @@
+.content {
+  margin-top: 5%;
+  position: relative;
+  height: 50%;
+  width: 90%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 80%;
+  margin: 0 auto;
+  max-width: 960px;
+  vertical-align: top;
+  padding-left: 0;
+  padding-bottom: 5%;
+}
+
+h1 {
+  color: blue;
+}
+
+* {
+  font-family: "Sora", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  width: 100%;
+  max-height: 300px;
+}
+
+.logo {
+  width: 22vh;
+}
+
+.btn-send {
+  margin-top: 2vh;
+  margin-left: 49vw;
+  margin-right: 50vw;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.textArea {
+  margin-top: 3vh;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 50vw;
+  height: 30vh;
+}

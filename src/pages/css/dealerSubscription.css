@@ -1,0 +1,25 @@
+.mainHeader {
+  color: black;
+  margin: 0;
+}
+
+.planWrapper {
+  border-radius: 25;
+}
+
+.planBox {
+  width: 10vw;
+  height: 4vh;
+  border-radius: 10px;
+  margin-left: 4vw;
+}
+
+.subcriptionForm {
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+
+.buttonDiv {
+  margin-top: 3vh;
+  padding-left: 10vw;
+}

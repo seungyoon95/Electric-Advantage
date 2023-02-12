@@ -1,0 +1,196 @@
+.modal-header {
+  background-color: #207567;
+}
+
+.box1 {
+  float: left;
+  width: 25%;
+  height: 100px;
+}
+.box2 {
+  float: left;
+
+  width: 50%;
+  height: 100px;
+}
+.box3 {
+  float: right;
+
+  width: 25%;
+  height: 100px;
+}
+
+.banner {
+  padding: 1vh;
+  display: flex;
+  flex-direction: row;
+  height: 21vh;
+  background-color: #207567;
+  justify-content: space-around;
+}
+
+.countBox {
+  background-color: #207567;
+}
+.value {
+  color: #f6f4f1;
+  font-size: 40pt;
+  font-weight: 500;
+  text-align: center;
+  background-color: #207567;
+}
+.category {
+  color: #f6f4f1;
+  text-align: center;
+  font-size: 20pt;
+  background-color: #207567;
+  /* margin-top: 2vh; */
+}
+
+.regionContainer {
+  background-color: #207567;
+  text-align: center;
+  padding: 2vh;
+}
+
+.regionSelect {
+  font-size: 20pt;
+  background-color: #207567;
+  color: #f6f4f1;
+  width: 50vh;
+  text-align-last: center;
+}
+
+select option {
+  color: black;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h1,
+h4 {
+  margin-top: 3vh;
+  margin-left: 3vw;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f6f4f1; */
+}
+
+h2 {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  margin-left: 3vw;
+
+  font-weight: bold;
+}
+
+td {
+  font-weight: bold;
+}
+
+.dealerCard {
+  width: 80vw;
+  max-height: 40vh;
+  margin-bottom: 1vh;
+  border: groove;
+  position: relative;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  vertical-align: top;
+  align-self: center;
+  justify-self: center;
+}
+
+.dealerImage {
+  margin: 3vh;
+  width: 15vh;
+  vertical-align: middle;
+}
+
+.dealerImageContainer {
+  height: 20vh;
+}
+
+.carImage3 {
+  width: 10px;
+  height: 10px;
+}
+
+.dealerTable {
+  width: 60vw;
+  margin-top: 3vh;
+}
+
+.searchButton {
+  margin-top: 5vh;
+  color: white;
+  background-color: #207567;
+}
+
+.dealerResults {
+  position: relative;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.statusColumn {
+  margin-left: 10px;
+}
+
+.makeColumn {
+  /* margin-left: 13vw; */
+}
+
+.whatitem {
+  margin-left: 0;
+}
+
+.range {
+  display: flex;
+  margin-left: -3vw;
+}
+
+.priceColumn {
+  margin-left: -1vw;
+}
+
+.rangeColumn {
+  margin-left: -7vw;
+}
+
+.inventory {
+  position: absolute;
+  margin-left: -10vw;
+}
+
+.makeTitle {
+  /* margin-left: -2.8vw; */
+}
+
+.statusTitle {
+  /* margin-left: -2.8vw; */
+}
+
+.priceTitle {
+  margin-left: -1.8vw;
+}
+
+.rangeTitle {
+  margin-left: -1.8vw;
+}
